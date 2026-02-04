@@ -60,14 +60,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Kenya Airways Custom Colors
+        // Kenya Airways Custom Colors - Red, White, Black
         kq: {
-          green: "hsl(var(--kq-green))",
-          "green-light": "hsl(var(--kq-green-light))",
-          "green-dark": "hsl(var(--kq-green-dark))",
           red: "hsl(var(--kq-red))",
-          gold: "hsl(var(--kq-gold))",
-          navy: "hsl(var(--kq-navy))",
+          "red-dark": "hsl(var(--kq-red-dark))",
+          "red-light": "hsl(var(--kq-red-light))",
+          black: "hsl(var(--kq-black))",
+          white: "hsl(var(--kq-white))",
+          gray: "hsl(var(--kq-gray))",
         },
       },
       borderRadius: {
