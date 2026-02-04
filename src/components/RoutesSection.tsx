@@ -115,7 +115,7 @@ export const RoutesSection = () => {
         </div>
 
         {/* New Route Announcement */}
-        <div className="mt-12 bg-gradient-to-r from-primary to-kq-green-light rounded-2xl p-8 text-center">
+        <div className="mt-12 bg-gradient-to-r from-primary to-kq-red-light rounded-2xl p-8 text-center">
           <Badge className="mb-4 bg-white/20 text-white">Coming 2026</Badge>
           <h3 className="text-2xl font-bold text-white mb-2">
             Beijing Route Launching Soon!
