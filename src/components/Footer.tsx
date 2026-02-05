@@ -1,6 +1,7 @@
-import { Plane, Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { KenyaAirwaysLogo } from './KenyaAirwaysLogo';
 
 const footerLinks = {
   'Book': ['Flights', 'Hotels', 'Car Rentals', 'Packages', 'Travel Insurance'],
@@ -39,14 +40,12 @@ export const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {/* Logo & Contact */}
           <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <Plane className="w-5 h-5 text-primary-foreground rotate-45" />
-              </div>
-              <div>
-                <span className="text-lg font-bold">Kenya Airways</span>
-                <span className="block text-xs text-background/60 -mt-1">The Pride of Africa</span>
-              </div>
+            <div className="mb-6">
+              <KenyaAirwaysLogo 
+                size="md" 
+                showTagline={true}
+                className="[&_span]:text-background [&_span]:!text-background"
+              />
             </div>
             <div className="space-y-3 text-sm text-background/70">
               <div className="flex items-center gap-2">
